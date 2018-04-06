@@ -1,0 +1,32 @@
+@import './../../../assets/styles/configuration/_colors';
+@import './../../../assets/styles/configuration/_functions/_rem';
+@import './../../../assets/styles/configuration/_functions/_strip-units';
+@import './../../../assets/styles/configuration/_em-base';
+
+.card{
+	border: 1px solid $lightGrey;
+	border-radius: rem(5px);
+	display: flex;
+	padding: {
+		top: rem(16px);
+		bottom: rem(16px);
+		left:  rem(24px);
+		right: rem(24px);
+	};
+
+	&-media{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-right: rem(16px);
+	}
+
+	.author{
+		display: flex;
+		align-items: center;
+
+		small{
+			margin-right: rem(4px);
+		}
+	}
+}

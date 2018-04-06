@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <img src="./assets/images/logo.png"> 
     <div class="app-sidebar">
           <app-nav></app-nav>
     </div>
@@ -21,5 +22,4 @@ export default {
 }
 </script>
 
-<style>
-</style>
+<style src="./assets/styles/main.scss" lang="scss"></style>

@@ -1,0 +1,32 @@
+// Normalize Styles
+@import 'node_modules/normalize.css/normalize';
+
+// Import all needed help
+@import 'configuration/_functions/_contrast';
+@import 'configuration/_functions/_rem';
+@import 'configuration/_functions/_strip-units';
+
+@import 'configuration/_mixins/_breakpoint';
+@import 'configuration/_mixins/_layout';
+
+@import 'configuration/_base';
+@import 'configuration/_colors';
+@import 'configuration/_em-base';
+@import 'configuration/_fonts';
+@import 'configuration/_variables';
+
+@import 'configuration/_formatting/_elements';
+@import 'configuration/_formatting/_images';
+@import 'configuration/_formatting/_table';
+
+@import 'utilities/_grid';
+
+
+// Box sizing partial styles:
+// Apply a natural box layout model to all elements
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+

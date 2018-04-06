@@ -1,0 +1,20 @@
+@import './../../../assets/styles/configuration/_functions/_rem';
+@import './../../../assets/styles/configuration/_functions/_strip-units';
+@import './../../../assets/styles/configuration/_em-base';
+
+.card{
+	&-list{
+		ul{
+			list-style: none;
+			padding: 0;
+
+			>li{
+				&:not(:last-child){
+					margin:{
+						bottom: rem(24px);
+					}
+				}
+			}
+		}
+	}
+}

@@ -2,5 +2,5 @@
 	<button :class="modifier" :type="type"> {{label}} </button>
 </template>
 
-<script src="./script.js"/>
-<style src="./stylesheet.scss"/>
+<script src="./app-button.js"/>
+<style src="./app-button.scss" lang="scss" scoped/>

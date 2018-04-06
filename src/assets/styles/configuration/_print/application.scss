@@ -1,0 +1,10 @@
+@media print {
+
+	.application{
+		&-header, 
+		&-footer{
+			display: none;
+		}
+	}
+
+}
