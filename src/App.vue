@@ -1,23 +1,65 @@
 <template>
   <div id="app">
-    <img src="./assets/images/logo.png"> 
-    <div class="app-sidebar">
-          <app-nav></app-nav>
-    </div>
     <div class="app-view">
-      <router-view/>
+      <div class="app-sidebar">
+            <img src="./assets/images/logo.png">
+            <app-nav :links="links"/>
+      </div>
+      <div class="app-content">
+        <router-view/>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 
-import AppNav from './components/organisms/AppNav';
+import AppNav from './components/organisms/app-nav/AppNav';
 
 export default {
   name: 'App',
   components: {
     AppNav
+  },
+  data(){
+    return{
+      links: [
+        {
+          path: '/atoms',
+          label: 'Atoms',
+          sublinks: [
+            {
+              path: '/avatar',
+              label: 'Avatar'
+            },
+            {
+              path: '/buttons',
+              label: 'Buttons'
+            },
+            {
+              path: '/links',
+              label: 'Links'
+            }
+          ]
+        },
+        {
+          path: '/molecules',
+          label: 'Molecules',
+          sublinks: [
+          ]
+        },
+        {
+          path: '/organisms',
+          label: 'Organisms',
+          sublinks: [
+            {
+              path: '/organisms',
+              label: 'CardList',
+            }
+          ]          
+        }
+      ]
+    }
   }
 }
 </script>

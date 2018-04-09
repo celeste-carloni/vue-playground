@@ -6,6 +6,7 @@ export default {
 	props: {
 		label: String,
 		modifier: String,
-		type: String
+		type: String,
+		method: Function
 	}
 }

@@ -15,4 +15,4 @@
 </template>
 
 <script src="./app-card.js"/>
-<style src="./app-card.scss" lang="scss"/>
+<style src="./app-card.scss" lang="scss" scoped/>

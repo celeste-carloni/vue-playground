@@ -1,5 +1,5 @@
 <template>
-	<button :class="modifier" :type="type"> {{label}} </button>
+	<button class="app-button btn" :class="modifier" :type="type" @click="method"> {{label}} </button>
 </template>
 
 <script src="./app-button.js"/>

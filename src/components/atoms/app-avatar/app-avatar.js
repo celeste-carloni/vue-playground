@@ -1,11 +1,11 @@
 export default{
-	name: "AppAvatar",
+	name: 'AppAvatar',
 	data(){
 		return {}
 	},
 	props: {
 		alt: String,
-		shape: String, //defauly shape is squared
+		shape: String, //default shape is squared
 		size: String,
 		url: String
 	}

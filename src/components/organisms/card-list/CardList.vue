@@ -9,4 +9,4 @@
 </template>
 
 <script src="./card-list.js"/>
-<style src="./card-list.scss" lang="scss"/>
+<style src="./card-list.scss" lang="scss" scoped/>

@@ -9,4 +9,4 @@
 </template>
 
 <script src="./app-avatar.js"/>
-<style src="./app-avatar.scss" lang="scss"/>
+<style src="./app-avatar.scss" lang="scss" scoped/>

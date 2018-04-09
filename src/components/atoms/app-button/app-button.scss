@@ -1,0 +1,11 @@
+@import './../../../assets/styles/configuration/_colors';
+
+.btn{
+	background: $vueGreen;
+	color: $white;
+	border-radius: 2px;
+	line-height: 100%;
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+	text-transform: uppercase;
+}

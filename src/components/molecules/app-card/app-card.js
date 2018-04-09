@@ -1,7 +1,7 @@
 import AppAvatar from './../../atoms/app-avatar/AppAvatar'; 
 
 export default{
-	name: "AppCard",
+	name: 'AppCard',
 	data(){
 		return{}
 	},

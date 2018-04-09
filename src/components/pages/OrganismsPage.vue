@@ -1,21 +1,14 @@
 <template>
-  <div>
-    <div>
-      <app-button label="click me" type="button" class="btn"> </app-button>
-    </div>
     <div class="col-6">
       <card-list :items="items" />
     </div>
-  </div>
 </template>
 
 <script>
-import AppAvatar from '../atoms/app-avatar/AppAvatar';
-import AppButton from '../atoms/app-button/AppButton';
 import CardList from '../organisms/card-list/CardList';
 
 export default {
-  name: 'HelloWorld',
+  name: 'OrganismsPage',
   data () {
     return {
       items: [
@@ -59,12 +52,7 @@ export default {
     }
   },
   components:{
-    AppAvatar,
-    AppButton,
     CardList
   }
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-

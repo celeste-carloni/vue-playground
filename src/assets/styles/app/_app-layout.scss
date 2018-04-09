@@ -1,0 +1,15 @@
+.app{
+
+	&-content{
+		width: 70%;
+	}
+
+	&-sidebar{
+		background: $lightGrey;
+		width: 30%;
+	}
+
+	&-view{
+		display: flex;
+	}
+}

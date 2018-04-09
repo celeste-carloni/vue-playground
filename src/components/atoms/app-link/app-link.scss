@@ -1,0 +1,14 @@
+@import './../../../assets/styles/configuration/_colors';
+
+.app-link {
+  color: $vueGreen;
+
+  &.color-inherit{
+  	color: inherit;
+  }
+}
+
+.router-link-exact-active {
+  margin-bottom: 4px;
+  border-bottom: 2px solid $vueGreen;;
+}

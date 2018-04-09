@@ -1,0 +1,30 @@
+@import './../../../assets/styles/configuration/_colors';
+
+.app-nav{
+	ul{
+		list-style: none;
+
+		> li{
+			padding:{
+				top: 0.5rem;
+				bottom: 0.5rem;
+			}
+		}
+	}
+}
+
+.nav{
+	
+	padding: 0;
+
+	&-item{
+		&-label{
+			color: $vueGreen;
+			text-transform: uppercase;
+		}
+
+		&-list{
+			padding-left: 1.5rem;
+		}
+	}
+}
