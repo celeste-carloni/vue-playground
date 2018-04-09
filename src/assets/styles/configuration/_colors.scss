@@ -7,6 +7,9 @@ $colors:(
 	_white:#fff
 );
 
+$dark:map-get($colors,_black);
+$light:map-get($colors,_white);
+$nav:map-get($colors,_venice-blue);
 
 // Colors from Google's Material Design
 $red:                   #e4002b;
@@ -51,6 +54,14 @@ $darker-gray: #6d6e71;
 $white: #fefefe;
 $black: #2c3e50;
 
-$dark:map-get($colors,_black);
-$light:map-get($colors,_white);
-$nav:map-get($colors,_venice-blue);
+
+@function palette(){
+	$palette:(
+		_action:$vueGreen,
+		_brand:map-get($colors,_venice-blue),
+		_highlight:map-get($colors,_venice-blue),
+    	_link:$vueGreen
+	);
+	@return $palette;
+}
+

@@ -1,38 +1,54 @@
 @import './../../../assets/styles/configuration/_colors';
 
-.avatar{
-	position: absolute;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
+// $dark: false; // TODO: move to _settings.scss
 
-	&-container {
-		background: $lightGrey;
-		border: 1px solid $lightGrey;
-		position: relative;
-		//there are section where avatar shrinks depending on the outer div eg company dashboard
-		// padding-top: calc(100% - 2px); //to define height, -2px is the border
-		height: 3rem;
-		width: 3rem; //default width
-		max-width: 100%;
-		overflow: hidden;
+// $colors-theme: theme-light();
+// @if ($dark) { // visualizing layout internals
+   
+//    $colors-theme: theme-dark();
+// }
 
-		&.small{
-			height: 1rem;
-			width: 1rem; 
+// .theme-dark{
+	// @import './../../../assets/styles/configuration/_colors';
+
+	// @import './../../../assets/styles/configuration/_colors';
+
+	$colors-theme: palette();
+	// $dark: true;
+	.avatar{
+		position: absolute;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+
+		&-container {
+			background: map-get($colors-theme,_brand);
+			border: 1px solid $lightGrey;
+			position: relative;
+			//there are section where avatar shrinks depending on the outer div eg company dashboard
+			// padding-top: calc(100% - 2px); //to define height, -2px is the border
+			height: 3rem;
+			width: 3rem; //default width
+			max-width: 100%;
+			overflow: hidden;
+
+			&.small{
+				height: 1rem;
+				width: 1rem; 
+			}
+
+			&.rounded{
+				border-radius: 50%;
+			}
 		}
 
-		&.rounded{
-			border-radius: 50%;
+		&-image {
+			max-width: 100%;
+			width: 3rem; // needed for IE
 		}
 	}
-
-	&-image {
-		max-width: 100%;
-		width: 3rem; // needed for IE
-	}
-}
+// }
