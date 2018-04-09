@@ -19,11 +19,11 @@ table {
         }
 
         tbody{
-            border: 1px solid $lightGrey;
+            border: 1px solid $light-gray;
             border-top: 0;
             tr{
                 &:nth-child(even){
-                    background: $lightGrey;
+                    background: $light-gray;
                 }
 
             }

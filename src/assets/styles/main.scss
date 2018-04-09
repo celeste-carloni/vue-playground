@@ -1,6 +1,3 @@
-// Normalize Styles
-@import 'node_modules/normalize.css/normalize';
-
 // Import all needed help
 @import 'configuration/_functions/_contrast';
 @import 'configuration/_functions/_rem';
@@ -20,6 +17,9 @@
 @import 'configuration/_formatting/_table';
 
 @import 'utilities/_grid';
+
+//import Foundation 
+@import 'vendor/foundation/foundation';
 
 // Import app layout
 @import 'app/_app-layout';

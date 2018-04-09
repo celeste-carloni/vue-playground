@@ -27,13 +27,31 @@ $deepOrange:            #ff5722;
 $brown:                 #795548;
 $grey:                  #9e9e9e;
 $blueGrey:              #607d8b;
-$black:                 #000000;
-$white:                 #ffffff;
+// $black:                 #000000;
+// $white:                 #ffffff;
 
 $lightGrey:             #e0e0e0;
 $material-background:   #eee;
 $vueGreen: #4fc08d;
 
+
+//Foundation
+$primary: $vueGreen;
+$secondary: $indigo;
+$success: $green;
+$warning: $yellow;
+$alert: $red;
+
+
+$lighter-gray: #f8f8f9;
+$light-gray: #e6e6e6;
+$medium-gray: #cacaca;
+$dark-gray: #8a8a8a;
+$darker-gray: #6d6e71;
+$white: #fefefe;
+$black: #2c3e50;
+
+$global-weight-normal: 400;
 
 $dark:map-get($colors,_black);
 $light:map-get($colors,_white);
