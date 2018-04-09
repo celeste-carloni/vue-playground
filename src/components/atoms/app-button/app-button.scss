@@ -1,11 +1,19 @@
 @import './../../../assets/styles/configuration/_colors';
 
-.btn{
-	background: $vueGreen;
-	color: $white;
+.button{
+	background: none;
+	padding: 0;
 	border-radius: 2px;
-	line-height: 100%;
-	padding: 0.5rem 1rem;
-	cursor: pointer;
-	text-transform: uppercase;
+
+	&.primary{
+		background: $vueGreen;
+		color: $white;
+		padding: 0.5rem 1rem;
+	}
+
+	&.is-icon{
+		background: $red;
+		height: 1rem;
+		width: 1rem;
+	}
 }
