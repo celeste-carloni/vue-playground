@@ -1,24 +1,22 @@
 @import './../../../assets/styles/configuration/_colors';
-@import './../../../assets/styles/configuration/_functions/_rem';
-@import './../../../assets/styles/configuration/_functions/_strip-units';
-@import './../../../assets/styles/configuration/_em-base';
+@import "./../../../../node_modules/foundation-sites/scss/util/_util";
 
 .card{
 	border: 1px solid $lightGrey;
-	border-radius: rem(5px);
+	border-radius: rem-calc(5px);
 	display: flex;
 	padding: {
-		top: rem(16px);
-		bottom: rem(16px);
-		left:  rem(24px);
-		right: rem(24px);
+		top: 1rem;
+		bottom: 1rem;
+		left:  rem-calc(24);
+		right: rem-calc(24);
 	};
 
 	&-media{
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		margin-right: rem(16px);
+		margin-right: 1rem;
 	}
 
 	.author{
@@ -26,7 +24,7 @@
 		align-items: center;
 
 		small{
-			margin-right: rem(4px);
+			margin-right: rem-calc(4);
 		}
 	}
 }

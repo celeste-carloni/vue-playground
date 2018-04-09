@@ -37,10 +37,6 @@ table {
                 padding: 20px 20px;
                 vertical-align: top;
 
-                @include mobile {
-                    padding: 20px 12px;
-                }
-
                 @media print{
                     font-size: $print-font-size !important;
                     padding: 10px 20px;

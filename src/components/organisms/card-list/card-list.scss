@@ -1,6 +1,4 @@
-@import './../../../assets/styles/configuration/_functions/_rem';
-@import './../../../assets/styles/configuration/_functions/_strip-units';
-@import './../../../assets/styles/configuration/_em-base';
+@import "./../../../../node_modules/foundation-sites/scss/util/_util";
 
 .card{
 	&-list{
@@ -11,7 +9,7 @@
 			>li{
 				&:not(:last-child){
 					margin:{
-						bottom: rem(24px);
+						bottom: rem-calc(24px);
 					}
 				}
 			}

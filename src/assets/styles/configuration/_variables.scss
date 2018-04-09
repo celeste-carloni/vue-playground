@@ -9,14 +9,10 @@ $medium: 500;
 $bold: 700;
 $ultra-bold: 900;
 
-// Variable settings for grids
-$gutter:                20px;
-$gutterTablet:          12px;
-$gutterDesktop:         20px;
+$global-weight-normal: $normal;
 
-// Breakpoints
-$bp-small-mobile: 		400px;
-$bp-mobile-max:         767px;
-$bp-min-tablet:         768px;
-$bp-min-desktop:        1024px;
-$bp-max-desktop:        1400px;
+// Variable settings for grids
+// $gutter:                20px;
+// $gutterTablet:          12px;
+// $gutterDesktop:         20px;
+

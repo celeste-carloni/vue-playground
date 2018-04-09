@@ -1,5 +1,5 @@
 <template>
-    <div class="col-6">
+    <div class="large-6">
       <card-list :items="items" />
     </div>
 </template>

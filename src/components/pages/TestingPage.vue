@@ -1,5 +1,5 @@
 <template>
-    <div class="col-6">
+    <div class="large-6">
       <app-modal/>
     </div>
 </template>
