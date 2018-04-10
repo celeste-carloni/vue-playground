@@ -12,3 +12,7 @@
 		@return $darker;
 	}
 }
+
+@function set-text-color($map,$color-name,$darker:$dark,$lighter:$light){
+	@return contrast(map-get($map,$color-name),$darker,$lighter);;
+}

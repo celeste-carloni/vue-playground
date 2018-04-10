@@ -1,8 +1,8 @@
 @import './../../../assets/styles/configuration/_colors';
-@import "./../../../../node_modules/foundation-sites/scss/util/_util";
+@import './../../../../node_modules/foundation-sites/scss/util/_util';
 
 .card{
-	border: 1px solid $lightGrey;
+	border: 1px solid $light-gray;
 	border-radius: rem-calc(5px);
 	display: flex;
 	padding: {

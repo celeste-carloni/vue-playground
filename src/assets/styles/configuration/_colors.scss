@@ -1,15 +1,6 @@
 // This is where colors are added. Accessible by map-get syntax 
 // (map-get($colors,color-name))
 // Use http://chir.ag/projects/name-that-color/ to name your colours
-$colors:(
-	_black:#000,
-	_venice-blue:#0a51a1,
-	_white:#fff
-);
-
-$dark:map-get($colors,_black);
-$light:map-get($colors,_white);
-$nav:map-get($colors,_venice-blue);
 
 // Colors from Google's Material Design
 $red:                   #e4002b;
@@ -33,14 +24,10 @@ $blueGrey:              #607d8b;
 // $black:                 #000000;
 // $white:                 #ffffff;
 
-$lightGrey:             #e0e0e0;
-$material-background:   #eee;
-$vueGreen: #4fc08d;
-
 
 //Foundation
-$primary: $vueGreen;
-$secondary: $indigo;
+$primary: #4fc08d;
+$secondary: #36495f;;
 $success: $green;
 $warning: $yellow;
 $alert: $red;
@@ -55,13 +42,16 @@ $white: #fefefe;
 $black: #2c3e50;
 
 
-@function palette(){
-	$palette:(
-		_action:$vueGreen,
-		_brand:map-get($colors,_venice-blue),
-		_highlight:map-get($colors,_venice-blue),
-    	_link:$vueGreen
-	);
-	@return $palette;
-}
+//Contrast
+$dark: $black;
+$light: $white;
+
+$palette:(
+	_action: $primary,
+	_body-background: $white,
+	_brand: $primary,
+	_highlight: $primary
+);
+
+
 

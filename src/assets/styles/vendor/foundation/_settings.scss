@@ -28,6 +28,7 @@ $global-prototype-breakpoints: false;
 $global-button-cursor: auto;
 $global-color-pick-contrast-tolerance: 0;
 $print-transparent-backgrounds: true;
+
 @include add-foundation-colors;
 
 // 2. Breakpoints
@@ -434,20 +435,7 @@ $label-radius: $global-radius;
 
 // 27. Pagination
 // --------------
-// $pagination-font-size: rem-calc(14);
-// $pagination-margin-bottom: $global-margin;
-// $pagination-item-color: $black;
-// $pagination-item-padding: rem-calc(3 10);
-// $pagination-item-spacing: rem-calc(1);
-// $pagination-radius: $global-radius;
-// $pagination-item-background-hover: $light-gray;
-// $pagination-item-background-current: $primary-color;
-// $pagination-item-color-current: $white;
-// $pagination-item-color-disabled: $medium-gray;
-// $pagination-ellipsis-color: $black;
-// $pagination-mobile-items: false;
-// $pagination-mobile-current-item: false;
-// $pagination-arrows: true;
+
 
 // 28. Progress Bar
 // ----------------

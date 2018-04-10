@@ -1,0 +1,27 @@
+@import './../../../assets/styles/configuration/_functions/_contrast';
+@import './../../../assets/styles/configuration/_colors';
+@import "./../../../../node_modules/foundation-sites/scss/foundation";
+@import './../../../../node_modules/foundation-sites/scss/util/_util';
+
+$global-radius: 0;
+$global-margin: 1rem;
+
+// 27. Pagination
+$pagination-font-size: rem-calc(14);
+$pagination-margin-bottom: $global-margin;
+$pagination-item-padding: rem-calc(3 10);
+$pagination-item-spacing: rem-calc(1);
+$pagination-radius: $global-radius;
+$pagination-mobile-items: false;
+$pagination-mobile-current-item: false;
+$pagination-arrows: true;
+
+//theming variables
+$pagination-item-color: set-text-color($palette,_body-background);
+$pagination-item-background-hover: $light-gray;
+$pagination-item-background-current: map-get($palette, _highlight);
+$pagination-item-color-current: set-text-color($palette,_highlight);
+$pagination-item-color-disabled: $medium-gray;
+$pagination-ellipsis-color: $black;
+
+@include foundation-pagination;
