@@ -1,0 +1,24 @@
+@import './../../../assets/styles/configuration/_colors';
+@import './../../../../node_modules/foundation-sites/scss/util/_util';
+
+.calendar-entry{
+	border: 1px solid $light-gray;
+	border-radius: rem-calc(5);
+	display: flex;
+	flex-direction: column;
+	margin: 1rem;
+	padding: {
+		top: 1rem;
+		bottom: 1rem;
+		left:  rem-calc(24);
+		right: rem-calc(24);
+	};
+
+	.error{
+		color: $alert;
+		font:{
+			size: rem-calc(14);
+		};
+		margin-top: 0.5rem;
+	}
+}

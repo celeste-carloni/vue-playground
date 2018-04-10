@@ -57,7 +57,17 @@ export default {
               label: 'CardList',
             }
           ]          
-        }
+        },
+        {
+          path: '/',
+          label: 'Pages',
+          sublinks: [
+            {
+              path: '/calendar',
+              label: 'Calendar'
+            }
+          ]
+        },
       ]
     }
   }

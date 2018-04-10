@@ -1,7 +1,7 @@
 <template>
     <div class="testing-page">
       <div class="large-6">
-        <app-modal/>
+<!--         <app-modal/> -->
       </div>
       <div class="large-6">
         <app-pagination/>

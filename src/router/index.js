@@ -10,6 +10,9 @@ import ButtonsPage from '@/components/pages/atoms/ButtonsPage';
 //for testing new component only
 import TestingPage from '@/components/pages/TestingPage';
 
+//PAGES
+import CalendarPage from '@/components/pages/CalendarPage';
+
 Vue.use(Router)
 
 export default new Router({
@@ -38,6 +41,11 @@ export default new Router({
       path: '/testing',
       name: 'TestingPage',
       component: TestingPage
+    },
+    {
+      path: '/calendar',
+      name: 'CalendarPage',
+      component: CalendarPage
     }
   ]
 })

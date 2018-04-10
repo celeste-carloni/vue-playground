@@ -43,6 +43,11 @@ $darker-gray: #6d6e71;
 $white: #fefefe;
 $black: #2c3e50;
 
+$colors:(
+	_dark-gray: $dark-gray,
+	_black: $black
+);
+
 
 //Contrast
 $dark: $black;
@@ -50,7 +55,7 @@ $light: $white;
 
 $palette:(
 	_action: $primary,
-	_body-background: $black,
+	_body-background: $white,
 	_brand: $primary,
 	_highlight: $primary
 );

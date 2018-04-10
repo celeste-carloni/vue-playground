@@ -1,0 +1,35 @@
+@import './../../../assets/styles/configuration/_colors';
+@import './../../../assets/styles/configuration/_functions/_contrast';
+@import './../../../assets/styles/configuration/_mixins/_theme';
+
+.calendar-day{
+
+	@include theme($colors,_black);
+
+	border: 1px solid grey;
+	border-right: none;
+	width: calc(100% / 7);
+
+	&:last-child{
+		border-right: 1px solid grey;
+	}
+
+
+	&-details{
+
+	}
+
+	&-label{
+		@include theme($palette,_highlight);
+		padding: 1rem;
+		text:{
+			align: center;
+			transform: uppercase;
+		};
+	}
+
+	&-number{
+		padding: 1rem;
+	}
+
+}

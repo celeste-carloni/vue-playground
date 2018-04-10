@@ -6,6 +6,7 @@
 
 	&-sidebar{
 		background: $light-gray;
+		flex-shrink: 0;
 		width: 320px;
 	}
 

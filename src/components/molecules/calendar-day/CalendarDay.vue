@@ -3,7 +3,7 @@
     <div class="calendar-day-label">{{ day.abbvTitle }}</div>
     <div class="calendar-day-details">
       <div class="calendar-day-number">{{ day.id }}</div>
-      <CalendarEvent v-for="event in day.events"
+      <calendar-event v-for="event in day.events"
         :key="day.events.indexOf(event)"
         :event="event"
         :day="day"/>
