@@ -18,20 +18,10 @@
 // Import app layout
 @import 'app/_app-layout';
 
-html{
+html, body{
 	height: 100%;
 }
 
-body {
-	display: flex;
-	flex-direction: column;
-	min-height: 100%;
-	// height: 100%; //otherwise #app won't take its height on IE and FF
-}
-
-#app {
-	flex: 1 0 auto;
-}
 
 
 

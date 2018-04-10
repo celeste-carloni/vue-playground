@@ -1,15 +1,16 @@
 .app{
 
 	&-content{
-		width: 70%;
+		flex-grow: 1;
 	}
 
 	&-sidebar{
 		background: $light-gray;
-		width: 30%;
+		width: 320px;
 	}
 
 	&-view{
 		display: flex;
+		min-height: 100vh;
 	}
 }
