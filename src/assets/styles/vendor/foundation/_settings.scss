@@ -12,8 +12,8 @@ $foundation-palette: (
   warning: $warning,
   alert: $alert
 );
-$body-background: $light;
-$body-font-color: $black;
+$body-background: map-get($palette,_body-background);
+$body-font-color: $body-text;
 $body-font-family: map-get($fonts,common);
 $body-antialiased: true;
 $global-margin: 1rem;

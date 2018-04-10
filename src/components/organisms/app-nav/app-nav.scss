@@ -5,6 +5,7 @@
 		list-style: none;
 
 		> li{
+			color: $black;
 			padding:{
 				top: 0.5rem;
 				bottom: 0.5rem;
@@ -19,7 +20,7 @@
 
 	&-item{
 		&-label{
-			color: $primary;
+			color: map-get($palette,_highlight);
 			text-transform: uppercase;
 		}
 

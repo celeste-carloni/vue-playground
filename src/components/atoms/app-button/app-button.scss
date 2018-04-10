@@ -1,4 +1,5 @@
 @import './../../../assets/styles/configuration/_colors';
+@import './../../../assets/styles/configuration/_mixins/_theme';
 
 .button{
 	background: none;
@@ -6,8 +7,7 @@
 	border-radius: 2px;
 
 	&.primary{
-		background: $primary;
-		color: $white;
+		@include theme($palette,_action);
 		padding: 0.5rem 1rem;
 	}
 
