@@ -3,11 +3,17 @@
 import Vue from 'vue';
 import App from './App';
 import router from './router';
+import * as svgicon from 'vue-svgicon'
 // import store from './store';
+
 
 // import './assets/styles/main.scss'
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
+
+Vue.use(svgicon, {
+    tagName: 'svgicon'
+});
 
 new Vue({
   el: '#app',

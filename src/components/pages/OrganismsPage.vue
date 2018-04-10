@@ -1,7 +1,6 @@
-<template>
-    <div class="large-6">
-      <card-list :items="items" />
-    </div>
+<template lang="pug">
+    .large-6
+      card-list(:items="items")
 </template>
 
 <script>

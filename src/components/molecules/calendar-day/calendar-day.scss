@@ -4,32 +4,32 @@
 
 .calendar-day{
 
-	@include theme($colors,_black);
+  @include theme($colors,_black);
 
-	border: 1px solid grey;
-	border-right: none;
-	width: calc(100% / 7);
+  border: 1px solid grey;
+  border-right: none;
+  width: calc(100% / 7);
 
-	&:last-child{
-		border-right: 1px solid grey;
-	}
+  &:last-child{
+    border-right: 1px solid grey;
+  }
 
 
-	&-details{
+  &-details{
 
-	}
+  }
 
-	&-label{
-		@include theme($palette,_highlight);
-		padding: 1rem;
-		text:{
-			align: center;
-			transform: uppercase;
-		};
-	}
+  &-label{
+    @include theme($palette,_highlight);
+    padding: 1rem;
+    text:{
+      align: center;
+      transform: uppercase;
+    };
+  }
 
-	&-number{
-		padding: 1rem;
-	}
+  &-number{
+    padding: 1rem;
+  }
 
 }

@@ -2,18 +2,18 @@
 @import './../../../assets/styles/configuration/_mixins/_theme';
 
 .button{
-	background: none;
-	padding: 0;
-	border-radius: 2px;
+  background: none;
+  padding: 0;
+  border-radius: 2px;
 
-	&.primary{
-		@include theme($palette,_action);
-		padding: 0.5rem 1rem;
-	}
+  &.primary{
+    @include theme($palette,_action);
+    padding: 0.5rem 1rem;
+  }
 
-	&.is-icon{
-		background: red;
-		height: 1rem;
-		width: 1rem;
-	}
+  &.is-icon{
+    background: red;
+    height: 1rem;
+    width: 1rem;
+  }
 }

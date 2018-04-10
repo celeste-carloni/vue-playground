@@ -12,7 +12,7 @@ import AppButton from '../../atoms/app-button/AppButton';
 export default {
   name: 'ButtonsPage',
   components:{
-  	AppButton
+    AppButton
   },
   data () {
     return {}

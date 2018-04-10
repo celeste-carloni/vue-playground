@@ -1,11 +1,10 @@
-<template>
-	<div class="calendar-week">
-		<calendar-day
+<template lang="pug">
+	.calendar-week
+		calendar-day(
 			v-for="day in sharedState.seedData" 
 			:key="day.id"
 			:day="day"
-		/>
-	</div>
+		)
 </template>
 
 <script src="./calendar-week.js"/>

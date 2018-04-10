@@ -1,9 +1,10 @@
-<template>
-  <router-link 
+<template lang="pug">
+  router-link( 
   	class="app-link" 
   	:class="isInheritColor ? 'color-inherit' : ''" 
-  	:to="path">{{ label }}
-  </router-link>
+  	:to="path"
+  ) {{ label }}
+
 </template>
 
 <script src="./app-link.js"/>

@@ -1,18 +1,12 @@
-<template>
-  <div class="calendar-page grid-container">
-    <div class="grid-x grid-margin-x">
-      <div class="cell">
-        <calendar-week/>
-      </div>
-      <div class="cell">
-        <div class="grid-x align-center">
-          <div class="cell shrink">
-            <calendar-entry/>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<template lang="pug">
+  .calendar-page.grid-container
+    .grid-x.grid-margin-x
+      .cell
+        calendar-week
+      .cell
+    .grid-x.align-center
+      .cell.shrink
+        calendar-entry
 </template>
 
 <script>
